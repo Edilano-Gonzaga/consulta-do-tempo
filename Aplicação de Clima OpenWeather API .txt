@@ -1,0 +1,18 @@
+Aplicação de Clima OpenWeather API - Projeto de JavaScript com API.
+
+1- Criar pastas HTML ,CSS, Js e os arquivos.
+
+fonte usada no projeto
+
+Ubuntu selecionar todas as variações da fonte.
+
+baixamos também cdnjs confe para js
+***fonte awesome
+cdnjs é um serviço gratuito de código aberto.
+https://cdnjs.com/
+
+Projeto 
+
+no Body
+criamos uma div com class container > ela vai ser responsável pela a imagem de fundo quando consultar o clima de uma cidade ela ter uma animação de mudar.
+dentro dela teremos outras divs, div para formulário, os inputs que são as entradas onde iremos fazer a pesquisa.

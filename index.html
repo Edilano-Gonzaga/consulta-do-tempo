@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/stye.css">
+    <script src="js/script.js" defer></script>
+
+    <title> Tempo Agora! </title>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h3>Confira o clima de uma cidade</h3>
+            <div class="form-input-container">
+                <input type="text" placeholder="Digite o nome da cidade" id="city-input">
+                <button id="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </div>
+        <div id="weather-data">
+            <h2><i class="fa-solid fa-location-dot"></i>
+            <span id="city">Fortaleza</span>
+            <!-- <img src="https://flagcdn.com/w20/br.png" alt="Bandeira do país"  id="country"> -->
+            </h2>
+            <p id="temperature"><span>38</span>&deg;C</p>
+            <div id="description-container">
+                <p id="description">Nublado</p>
+                <img src="http://openweathermap.org/img/wn/01d.png" alt="Condições do tempo" id="weather-icon">
+            </div>
+            <div id="details-container">
+                <p id="humidity">
+                    <i class="fa-solid fa-droplet"></i>
+                    <span>48%</span>
+                </p>
+                <p id="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <span>3km/h</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
